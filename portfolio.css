@@ -1,173 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
-    
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 /* nav style */
-nav{
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 100px;
+nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px;
 }
-.nav-title{
-     font-weight: 800;
-     font-size: 45px;
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
 }
-.r{
-    color: #FD6E0A;
+.r {
+  color: #fd6e0a;
 }
 nav > ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
- 
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-nav > ul > li{
-    margin-right:80px;
-  
+nav > ul > li {
+  margin-right: 80px;
 }
 nav > h3 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 nav > ul > li > a {
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
 }
-.first-btn{
-    background-color: #FD6E0A;
-    /* width: 150px;
+.first-btn {
+  background-color: #fd6e0a;
+  /* width: 150px;
     height: 64px; */
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    border: 0px;
-    font-size: 20px;
-    padding: 18px 37px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: 0px;
+  font-size: 20px;
+  padding: 18px 37px;
 }
 
-.bg{
-    background-image: url(developer.png),url(header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left,bottom right;
-    /* margin: 0px; */
-    /* padding: 0px; */
-    background-color: #FFF8F3;
-    
-}
-.banner{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.banner-first-title{
-    color: #474747;
-    font-size: 45px;
-    font-weight: 600;
-}
-.banner-container{
-    width: 585;
-    height: 356px;
-    margin: 0px 150px 0px 120px;
-}
-.mary-name{
-    font-size: 85px;
-    font-weight:bold;
-    
-}
-.mary-bio{
-    font-size: 18px;
-    color: #757575;
-}
-.mary-pic{
-  width: 584px; 
-  height: 676px;
-   margin: 0px 0px 0px 50px;
-}
-.about-mary{
-    /* background-color: #FFF8F3; */
-    /* padding: 131px 157px; */
-    /* margin: 100px 200px;
-    border-radius: 10px;
-    background-color: #FFF8F3;
-    width: 1150px; */
-    margin-top: 120px;
-}
-main{
-    max-width: 1150px;
-    margin: 0 auto;
-}
-.second-section{
+.bg {
+  background-image: url(developer.png), url(header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 
-    border-radius: 10px;
-    background-color: #FFF8F3;
-    
-    height: 250px;
-    padding-left: 130px;
-    padding-top: 50px;
-    padding-right: 130px;
-    padding-bottom: 150px;
-
+  background-color: #fff8f3;
 }
-
-.second-section-first-part{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-
-}
-.every-title{
-    font-weight: bold;
-    font-size: 35px;
-    color: #181818;
-}
-.every-description{
-    font-size: 18px;
-    color: #757575;
-}
-.personal-info{
+.banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.info{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-   
+.banner-first-title {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
 }
-.info-head{
-    color: #757575; 
-    margin-bottom: 0px;
+.banner-container {
+  width: 585;
+  height: 356px;
+  margin: 0px 150px 0px 120px;
 }
-.info-detail{
-    font-weight: bold;
-    margin-top: 0px;
+.mary-name {
+  font-size: 85px;
+  font-weight: bold;
 }
-.third-section-first-part{
+.mary-bio {
+  font-size: 18px;
+  color: #757575;
+}
+.mary-pic {
+  width: 584px;
+  height: 676px;
+  margin: 0px 0px 0px 50px;
+}
+.about-mary {
+  margin-top: 120px;
+}
+main {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.second-section {
+  border-radius: 10px;
+  background-color: #fff8f3;
+
+  height: 250px;
+  padding-left: 130px;
+  padding-top: 50px;
+  padding-right: 130px;
+  padding-bottom: 150px;
+  transition: 1s;
+}
+.second-section:hover{
+    box-shadow: 0px 0px 15px lightgray;
+}
+.second-section-first-part {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.third-section-second-part
-{
-    display: flex; 
-    justify-content: space-between; 
+.every-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
 }
-.languages{
-    
-    box-shadow: 0px 0px 10px lightgrey;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+.every-description {
+  font-size: 18px;
+  color: #757575;
+}
+.personal-info {
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-head {
+  color: #757575;
+  margin-bottom: 0px;
+}
+.info-detail {
+  font-weight: bold;
+  margin-top: 0px;
+}
+.third-section-first-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.third-section-second-part {
+  display: flex;
+  justify-content: space-between;
+}
+.languages {
+  box-shadow: 0px 0px 10px lightgrey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.languages:hover{
+    box-shadow: 0px 0px 10px rgb(56, 56, 56);
 }
